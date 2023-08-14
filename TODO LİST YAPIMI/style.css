@@ -1,0 +1,102 @@
+* *:before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh; /*bu kısma bak*/
+  background-color: cornflowerblue;
+}
+.container {
+  width: 40%;
+  justify-content: center;
+  top: 20%;
+  left: 42%;
+  background-color: darkorange;
+  border-radius: 10px;
+  min-width: 450px;
+  position: relative;
+  min-height: 200px;
+  transform: translate(-50%, -50%); /*bu kısma bak*/
+}
+#yenigörev {
+  position: relative;
+  padding: 30px 20px;
+}
+#yenigörev input {
+  width: 75%;
+  height: 45px;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500px;
+  position: relative;
+  border-radius: 5px;
+  font-family: "Times New Roman", sans-serif;
+  border: 2px solid #d1d3d4;
+}
+#yenigörev input:focus {
+  outline: none;
+  border-color: #4f95e6;
+}
+#yenigörev button {
+  position: relative;
+  float: right;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #0d75ec;
+  border: none;
+  color: #ffff;
+  cursor: pointer;
+  outline: none;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+#görevler {
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  margin-top: 10px;
+}
+.task {
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  cursor: pointer;
+  background-color: #c5e1e6;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+}
+.task span {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 200px;
+}
+.task button {
+  background-color: #0a2ea4;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 20px;
+  border-radius: 5px;
+}
+.delete {
+  height: 30px;
+  width: 30px;
+}
+.icon-container {
+  position: relative;
+  padding: 60px;
+  top: -40px;
+  left: -15px;
+  color: darkred;
+  font-size: large;
+}
